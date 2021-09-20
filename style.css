@@ -1,0 +1,328 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+  height:720px;
+  background-image:url('bg.jpg');
+}
+
+nav a{
+  text-decoration:none;
+}
+nav .logo{
+  font-size:33px;
+  position:absolute;
+  left:30px;
+  top:50px;
+  font-weight:bold;
+}
+
+nav .logo a{
+  color:white;
+  font-weight:bold;
+}
+
+nav .menu{
+  positon:relative;
+  padding-top:50px;
+  top:50px;
+  word-spacing:10px;
+  margin-left: 1000px;
+  color:white;
+}
+
+nav .menu ul li{
+  display:inline;
+}
+
+nav .menu ul li a{
+  text-decoration:none;
+}
+
+nav .menu ul li a .bi{
+  width:40px;
+  height:40px;
+  border-radius:10px;
+}
+
+nav .menu ul li a .bi-facebook{
+  color:#2196F3;
+  background:white;
+}
+
+nav .menu ul li a .bi-twitter{
+  color:#2196F3;
+  background:white;
+}
+
+nav .menu ul li a .bi-instagram{
+  color:#FF03AF;
+  background:black;
+}
+
+nav .menu ul li a .bi-telegram{
+  color:#2196F3;
+  background:white;
+}
+
+nav .menu ul li a .bi-github{
+  color:black;
+  background:white;
+}
+
+nav .copyright{
+  color:white;
+  margin-left:1000px;
+}
+
+section .header-container{
+   text-align:center;
+   padding-top:200px;
+   color:white;
+}
+
+section .header-container .header-containt h1{
+  font-size:81px;
+}
+
+section .header-container .header-containt p{
+  font-size:26px;
+}
+
+section .header-container .header-containt .btn{
+  width:300px;
+  height:50;
+  border:3px solid white;
+  text-decoration:none;
+  font-size:35px;
+  margin-top:31px;
+ margin-left:50px;
+ background-color:purple;
+}
+
+.btn:hover{
+  background:purple;
+}
+
+
+section .header-container .header-containt a{
+  width:500px;
+  color:white;
+  text-decoration:none;
+  
+}
+
+@media (min-width:768px) and (max-width:1280px){
+  
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+  height:720px;
+  background-image:url('bg.jpg');
+}
+
+nav a{
+  text-decoration:none;
+}
+nav .logo{
+  font-size:33px;
+  position:absolute;
+  left:30px;
+  top:50px;
+  font-weight:bold;
+}
+
+nav .logo a{
+  color:white;
+  font-weight:bold;
+}
+
+nav .menu{
+  positon:relative;
+  margin-left:650px;
+  padding-top:50px;
+  top:50px;
+  word-spacing:10px;
+  color:white;
+}
+
+nav .menu ul li{
+  display:inline;
+}
+
+nav .menu ul li a{
+  text-decoration:none;
+}
+
+nav .menu ul li a .bi{
+  width:40px;
+  height:40px;
+  border-radius:10px;
+}
+
+nav .menu ul li a .bi-facebook{
+  color:#2196F3;
+  background:white;
+}
+
+nav .menu ul li a .bi-twitter{
+  color:#2196F3;
+  background:white;
+}
+
+nav .menu ul li a .bi-instagram{
+  color:#FF03AF;
+  background:black;
+}
+
+nav .menu ul li a .bi-telegram{
+  color:#2196F3;
+  background:white;
+}
+
+
+section .header-container{
+   text-align:center;
+   padding-top:200px;
+   color:white;
+}
+
+section .header-container .header-containt h1{
+  font-size:81px;
+}
+
+section .header-container .header-containt p{
+  font-size:26px;
+}
+
+section .header-container .header-containt .btn{
+  width:250px;
+  height:50;
+  border:3px solid white;
+  color:white;
+  text-decoration:none;
+  font-size:35px;
+  margin-top:30px;
+  margin-left:350px;
+}
+
+section .header-container .header-containt a{
+  color:white;
+  text-decoration:none;
+  
+}
+
+}
+
+@media (max-width:700px){
+  
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+  height:900px;
+  background-image:url('bg.jpg');
+}
+
+nav a{
+  text-decoration:none;
+}
+nav .logo{
+  font-size:33px;
+  position:absolute;
+  left:30px;
+  top:50px;
+  font-weight:bold;
+}
+
+nav .logo a{
+  color:white;
+  font-weight:bold;
+}
+
+nav .menu{
+  positon:relative;
+  margin-left:50px;
+  padding-top:100px;
+  top:200px;
+  word-spacing:10px;
+  color:white;
+}
+
+nav .menu ul li{
+  display:inline;
+}
+
+nav .menu ul li a{
+  text-decoration:none;
+}
+
+nav .menu ul li a .bi{
+  width:40px;
+  height:40px;
+  border-radius:10px;
+}
+
+nav .menu ul li a .bi-facebook{
+  color:#2196F3;
+  background:white;
+}
+
+nav .menu ul li a .bi-twitter{
+  color:#2196F3;
+  background:white;
+}
+
+nav .menu ul li a .bi-instagram{
+  color:#FF03AF;
+  background:black;
+}
+
+nav .menu ul li a .bi-telegram{
+  color:#2196F3;
+  background:white;
+}
+
+nav .copyright{
+  margin-left:50px;
+}
+
+section .header-container{
+   text-align:center;
+   padding-top:200px;
+   color:white;
+}
+
+section .header-container .header-containt h1{
+  font-size:81px;
+}
+
+section .header-container .header-containt p{
+  font-size:26px;
+}
+
+section .header-container .header-containt .btn{
+  width:250px;
+  height:50;
+  border:3px solid white;
+  color:white;
+  text-decoration:none;
+  font-size:35px;
+  margin-top:31px;
+  margin-left:50px;
+}
+
+section .header-container .header-containt a{
+  color:white;
+  text-decoration:none;
+  
+}
+  
+}
